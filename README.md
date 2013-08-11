@@ -1,6 +1,6 @@
 # 81vagrants Virtual Environment
 
-Vagrant virtual environment for use within 81designs
+Vagrant virtual environment for use within 81designs for Wordpress sites.
 
 ### 1. Install Required Software
 
@@ -50,7 +50,7 @@ Webgrind and phpMyAdmin are available on every domain.
 
     phpMyAdmin - http://sample.dev/phpmyadmin
         User: root
-        Password: 81designs
+        Password: vagrant
     Webgrind - http://sample.dev/webgrind
 
 PHP is configured to send mail via MailCatcher. The web frontend for MailCatcher is running on port 1080 and also available on every domain:
