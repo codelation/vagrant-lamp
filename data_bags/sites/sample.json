@@ -1,0 +1,7 @@
+{
+  "id": "sample",
+  "host": "sample.dev",
+  "aliases": [
+    "www.sample.dev"
+  ]
+}
