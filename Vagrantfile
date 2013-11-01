@@ -14,7 +14,7 @@ Vagrant::Config.run do |config|
   # Share an additional folder to the guest VM. The first argument is
   # an identifier, the second is the path on the guest to mount the
   # folder, and the third is the path on the host to the actual folder.
-  config.vm.share_folder 'www', '/var/www', 'www', :extra => 'dmode=777,fmode=777'
+  config.vm.share_folder 'www', '/var/www', 'www', mount_options: ['dmode=777','fmode=777']
   
   config.ssh.forward_agent = true
 
