@@ -15,7 +15,7 @@ OS X Command Line Tools, VirtualBox, and Vagrant must be installed.
 
 Go to the repository folder and launch the build script.
 
-    $ cd 81vagrants
+    $ cd vagrant-lamp
     $ vagrant up
     
 ### 3. Add site files and configuration
